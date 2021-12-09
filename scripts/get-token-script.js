@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 async function main() {
   const NFT = await hre.ethers.getContractFactory("NeurLoot");
-  const CONTRACT_ADDRESS = "0x18d6E82542ba2B30E8e18055097e48888d866A9F"
+  const CONTRACT_ADDRESS = "0x274Ee74012D8cCFddDa14cB5dddE79D0cDFA215A"
   const contract = NFT.attach(CONTRACT_ADDRESS);
   const owner = await contract.ownerOf(2);
   console.log("Owner:", owner);
