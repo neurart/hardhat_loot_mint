@@ -13,3 +13,6 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+Tutorial:
+https://medium.com/pinata/how-to-create-layer-2-nfts-with-polygon-and-ipfs-aef998ff8ef2
